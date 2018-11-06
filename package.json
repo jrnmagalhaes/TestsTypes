@@ -1,0 +1,25 @@
+{
+  "name": "mochatests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "testQUnit": "mocha --ui qunit test_q_unit.js",
+    "testTdd": "mocha --ui tdd test_tdd.js",
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrnmagalhaes/TestsTypes.git"
+  },
+  "author": "Ricardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrnmagalhaes/TestsTypes/issues"
+  },
+  "homepage": "https://github.com/jrnmagalhaes/TestsTypes#readme",
+  "dependencies": {
+    "chai": "^4.2.0"
+  }
+}
